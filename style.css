@@ -1,0 +1,43 @@
+body {
+    background-color: #2c3e50;
+    color: #ffffff;
+}
+
+.converter {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font: 2.2rem sans-serif;
+}
+
+input, .steps, .kilometers, #resultKilometers {
+    font: 2.2rem serif;
+    border: solid 3px #222831;
+    width: 30vw;
+    margin-top: 0.2%;
+    background-color: transparent;
+    color: #ffffff;
+}
+
+.steps, .kilometers, #resultKilometers {
+    text-align: center;
+}
+#resultKilometers {
+    height: 4.5vh;
+}
+
+.hint {
+    text-align: center;
+    font: 2rem serif;
+}
+
+.equalUnit {
+    margin-top: 4%;
+    font: 1.8rem serif;
+}
+
+span {
+    color: rgb(239, 239, 41);
+    font-size: 2.4rem;
+}
